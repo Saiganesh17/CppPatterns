@@ -11,7 +11,8 @@ void pattern1(int n){
 int main(){
     int n;
     cin >>n;
-    pattern3(n);
+    pattern1(n);
     return 0;
 
 }
+
