@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void pattern3(int n){
+void pattern1(int n){
     for(int i=0;i<n;i++){
     for(char ch='A';ch='A'+i; ch++){
         cout<<ch<<"";
@@ -13,4 +13,5 @@ int main(){
     cin >>n;
     pattern3(n);
     return 0;
+
 }
